@@ -13,9 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build the Docker image Django
-      run: docker build -t hobbify_production_django -f ./compose/production/django/Dockerfile .
+#    - name: Build the Docker image Django
+#      run: docker build -t hobbify_production_django -f ./compose/production/django/Dockerfile .
 
     - name: Build images
       run: |
-          docker-compose -f local.yml build
+          docker-compose -f production.yml build
