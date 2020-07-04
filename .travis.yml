@@ -1,0 +1,7 @@
+language: python
+
+services:
+  - docker
+
+before_install:
+  - docker-compose -f production.yml build
