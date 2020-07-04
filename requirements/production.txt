@@ -1,0 +1,12 @@
+# PRECAUTION: avoid production dependencies that aren't in development
+
+-r ./base.txt
+
+gunicorn==19.9.0
+
+# Static files
+django-cloudinary-storage==0.2.3
+cloudinary==1.21.1
+
+# Email
+django-anymail[mailgun]==5.0
