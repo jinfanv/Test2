@@ -19,3 +19,5 @@ jobs:
     - name: Build images
       run: |
           ls -la
+          cd .envs
+          ls -la
