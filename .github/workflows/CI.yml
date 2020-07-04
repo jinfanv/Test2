@@ -21,3 +21,6 @@ jobs:
           ls -la
           cd .envs
           ls -la
+          cd .production
+          ls -la
+          pwd
