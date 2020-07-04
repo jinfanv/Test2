@@ -24,6 +24,7 @@ jobs:
           cd .local
           ls -la
           pwd
+          cd ..
           cd .production
           ls -la
           pwd
